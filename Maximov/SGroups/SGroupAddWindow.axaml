@@ -1,0 +1,25 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.SGroups.SGroupAddWindow"
+        Title="SGroupAddWindow">
+    <StackPanel Orientation="Vertical" Background="Gray">
+            
+        <TextBlock  FontSize = "20" HorizontalAlignment="Center" VerticalAlignment="Center" Background="DarkRed" Margin="0 10 0 0">Введите название группы</TextBlock>
+        <TextBox Width = "200" HorizontalAlignment="Center" Name="GroupNameBox" Background="IndianRed" Margin="0 0 0 10"></TextBox>
+            
+        <TextBlock FontSize = "20" HorizontalAlignment="Center" VerticalAlignment="Center" Background="DarkRed">Введите преподавателя</TextBlock>
+        <ComboBox Width = "200" Background="IndianRed" HorizontalAlignment="Center" Margin="10" Name="PedagogueComboBox"></ComboBox>
+            
+        <TextBlock FontSize = "20" HorizontalAlignment="Center" VerticalAlignment="Center" Background="DarkRed">Введите максимальное число студентов</TextBlock>
+        <TextBox Width = "200" HorizontalAlignment="Center" Name="MaxStudBox" Background="IndianRed" Margin="0 0 0 10"></TextBox>
+            
+        <TextBlock FontSize = "20" HorizontalAlignment="Center" VerticalAlignment="Center" Background="DarkRed">Введите курс</TextBlock>
+        <ComboBox Width = "200" Background="IndianRed" HorizontalAlignment="Center" Margin="10" Name="CourseGroupComboBox"></ComboBox>
+        
+        <Button Background="DarkRed" FontSize = "20" Margin="10" Click="AddButton" HorizontalAlignment="Center">Сохранить и добавить</Button>
+        <Button Background="DarkRed" FontSize = "20" Click="Cancel" HorizontalAlignment="Center">Отмена</Button>
+    </StackPanel>
+</Window>

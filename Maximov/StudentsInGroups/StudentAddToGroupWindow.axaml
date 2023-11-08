@@ -1,0 +1,19 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.StudentsInGroups.StudentAddToGroupWindow"
+        Title="StudentAddToGroupWindow">
+    <StackPanel Orientation="Vertical" Background="Gray">
+            
+        <TextBlock FontSize = "20" HorizontalAlignment="Center" VerticalAlignment="Center" Background="DarkRed">Введите студента</TextBlock>
+        <ComboBox HorizontalAlignment="Center" Margin="10" Name="StudentGroupComboBox"></ComboBox>
+        
+        <TextBlock FontSize = "20" HorizontalAlignment="Center" VerticalAlignment="Center" Background="DarkRed" Margin="0 10 0 0">Введите группу</TextBlock>
+        <ComboBox HorizontalAlignment="Center" Margin="10" Name="GroupingComboBox"></ComboBox>
+        
+        <Button Background="DarkRed" FontSize = "20" Margin="10" Click="AddButton" HorizontalAlignment="Center">Сохранить и добавить</Button>
+        <Button Background="DarkRed" FontSize = "20" Click="Cancel" HorizontalAlignment="Center">Отмена</Button>
+    </StackPanel>
+</Window>

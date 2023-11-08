@@ -1,0 +1,67 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UPPrivalov
+build_property.ProjectDir = C:\Users\Max\Desktop\Maximov\UPPrivalov\
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/Attendance/AttendanceWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/Courses/CourseAddWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/Courses/CourseWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/MenuWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/Payment/PaymentsWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/RegisterWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/Result1Win.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/ResultsWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/SGroups/SGroupAddWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/SGroups/SGroupsWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/StudentsInGroups/StudentAddToGroupWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/StudentsInGroups/StudentsInGroupsWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/Students/StudentsWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/Teachers/TeacherAddWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Max/Desktop/Maximov/UPPrivalov/Teachers/TeachersWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

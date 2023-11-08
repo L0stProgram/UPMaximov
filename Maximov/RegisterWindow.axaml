@@ -1,0 +1,49 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.RegisterWindow"
+        Background="Gray"
+        Title="RegisterWindow">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            
+            <TextBlock HorizontalAlignment="Center">Введите имя</TextBlock>
+            <TextBox Name="NameBox" Margin="0 0 0 5"></TextBox>
+            
+            <TextBlock HorizontalAlignment="Center">Введите фамилию</TextBlock>
+            <TextBox Name="SurnameBox" Margin="0 0 0 10"></TextBox>
+            
+            <TextBlock HorizontalAlignment="Center">Введите отчество</TextBlock>
+            <TextBox Name="LastNameBox" Margin="0 0 0 10"></TextBox>
+            
+            <TextBlock HorizontalAlignment="Center">Введите день рождения</TextBlock>
+            <DatePicker Name="BirthdayPicker"></DatePicker>
+            
+            <TextBlock HorizontalAlignment="Center">Введите номер телефона</TextBlock>
+            <TextBox Name="PhoneBox" Margin="0 0 0 10"></TextBox>
+            
+            <TextBlock HorizontalAlignment="Center">Введите электронную почту</TextBlock>
+            <TextBox Name="EmailBox" Margin="0 0 0 10"></TextBox>
+            
+            <TextBlock HorizontalAlignment="Center">Введите уровень владения языком</TextBlock>
+            <ComboBox Name="LevelsComboBox"></ComboBox>
+            
+            <TextBlock HorizontalAlignment="Center">Введите опыт в изучении языка</TextBlock>
+            <ComboBox Name="ExpComboBox"></ComboBox>
+            
+            <TextBlock HorizontalAlignment="Center">Введите логин</TextBlock>
+            <TextBox Name="LoginBox" Margin="0 0 0 10"></TextBox>
+            
+            <TextBlock HorizontalAlignment="Center">Введите пароль</TextBlock>
+            <TextBox Name="PasswordBox" Margin="0 0 0 0"></TextBox>
+            
+            <TextBlock FontSize = "20" Name="ErrorBlock" HorizontalAlignment="Center" Background="Yellow"></TextBlock>
+            
+            <Button Margin="10" FontSize = "20" Background="DarkRed" Click="Register" HorizontalAlignment="Center">Зарегистрироваться</Button>
+            
+            <Button Margin="10" FontSize = "20" Background="DarkRed" Click="Cancel" HorizontalAlignment="Center">Отмена</Button>
+        </StackPanel>
+    </Grid>
+</Window>

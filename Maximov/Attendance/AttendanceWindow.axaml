@@ -1,0 +1,23 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.AttendanceWindow"
+        Background="Gray"
+        Title="AttendanceWindow">
+    <Grid>
+        <StackPanel>
+            <DataGrid Background="DarkRed" Name="AttendanceDataGrid" x:CompileBindings="False" Height="300">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding AttendanceID}"/>
+                    <DataGridTextColumn Header="День обучения" Binding="{Binding AttendanceDay}"/>
+                    <DataGridTextColumn Header="Учащийся" Binding="{Binding AttendanceStudent}"/> 
+                </DataGrid.Columns>
+            </DataGrid>
+            
+            <Button Margin ="10" HorizontalAlignment="Center" FontSize = "20" Background="DarkRed" Click="Back">Назад</Button>
+            
+        </StackPanel>
+    </Grid>
+</Window>

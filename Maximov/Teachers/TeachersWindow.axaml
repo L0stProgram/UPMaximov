@@ -1,0 +1,29 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.Teachers.TeachersWindow"
+        Background="Gray"
+        Title="TeachersWindow">
+    <Grid>
+        <StackPanel>
+            <DataGrid Background="DarkRed" Name="TeachersDataGrid" x:CompileBindings="False" Height="300">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding TeacherID}"/>
+                    <DataGridTextColumn Header="Имя" Binding="{Binding TeacherName}"/>
+                    <DataGridTextColumn Header="Фамилия" Binding="{Binding TeacherSurname}"/> 
+                    <DataGridTextColumn Header="Отчество" Binding="{Binding TeacherLastName}"/>
+                    <DataGridTextColumn Header="День рождения" Binding="{Binding TeacherBirthday}"/>
+                    <DataGridTextColumn Header="Номер телефона" Binding="{Binding TeacherPhone}"/> 
+                    <DataGridTextColumn Header="Почта" Binding="{Binding TeacherEmail}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            
+            <Button FontSize = "20" Background="DarkRed" HorizontalAlignment="Center" Margin="10" Click="Add">Добавить</Button>
+            
+            <Button FontSize = "20" Background="DarkRed" HorizontalAlignment="Center" Margin="10" Click="Back">Назад</Button>
+            
+        </StackPanel>
+    </Grid>
+</Window>

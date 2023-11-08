@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.PaymentAddWindow"
+        Background="Gray"
+        Title="PaymentAddWindow">
+<StackPanel Orientation="Vertical">
+
+        <TextBlock FontSize = "20" Margin="5" Padding="5" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="DarkRed" >Выберите курс</TextBlock>
+        <ComboBox Margin="5" Padding="5" Width="300" HorizontalAlignment="Center" Foreground="DarkRed"  Name="CourseComboBoxx"></ComboBox>
+
+        <TextBlock FontSize = "20" Margin="5" Padding="5" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="DarkRed" >Выберите клиента</TextBlock>
+        <ComboBox Margin="5" Padding="5" Width="300" HorizontalAlignment="Center" Foreground="DarkRed"  Name="StudentComboBoxx"></ComboBox>
+
+        <TextBlock FontSize = "20" Margin="5" Padding="5" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="DarkRed" >Введите сумму</TextBlock>
+        <TextBox Margin="5" Padding="5" Width="300" HorizontalAlignment="Center" Name="SumBox" Foreground="DarkRed"></TextBox>
+
+        <TextBlock FontSize = "20" Margin="5" Padding="5" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="DarkRed" >Выберите тип оплаты</TextBlock>
+        <ComboBox Margin="5" Padding="5" Width="300" HorizontalAlignment="Center" Foreground="DarkRed"  Name="PayTypeBoxx"></ComboBox>
+
+        <Button Background="DarkRed" Margin="10" Click="AddButton" HorizontalAlignment="Center">Сохранить и добавить</Button>
+        <Button Background="DarkRed" Click="Cancel" HorizontalAlignment="Center">Отмена</Button>
+    </StackPanel>
+</Window>

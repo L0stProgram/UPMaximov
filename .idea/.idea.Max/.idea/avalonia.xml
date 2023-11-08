@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Maximov/App.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/Attendance/AttendanceWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/Courses/CourseAddWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/Courses/CourseWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/MainWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/MenuWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/Payment/PaymentAddWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/Payment/PaymentsWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/PaymentAddWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/RegisterWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/Result1Win.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/ResultsWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/SGroups/SGroupAddWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/SGroups/SGroupsWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/Students/StudentsWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/StudentsInGroups/StudentAddToGroupWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/StudentsInGroups/StudentsInGroupsWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/Teachers/TeacherAddWindow.axaml" value="Maximov/Maximov.csproj" />
+        <entry key="Maximov/Teachers/TeachersWindow.axaml" value="Maximov/Maximov.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

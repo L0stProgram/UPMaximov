@@ -1,0 +1,31 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.Students.StudentsWindow"
+        Background="Gray"
+        Title="StudentsWindow">
+    <Grid>
+        <StackPanel>
+            <DataGrid Background="DarkRed" Name="StudentsDataGrid" x:CompileBindings="False" Height="300">
+                <DataGrid.Columns>
+                    
+                    <DataGridTextColumn Header="StudentID" Binding="{Binding StudentID}"/>
+                    <DataGridTextColumn Header="StudentName" Binding="{Binding StudentName}"/>
+                    <DataGridTextColumn Header="StudentSurname" Binding="{Binding StudentSurname}"/> 
+                    <DataGridTextColumn Header="StudentLastName" Binding="{Binding StudentLastName}"/>
+                    <DataGridTextColumn Header="StudentBirthday" Binding="{Binding StudentBirthday}"/>
+                    <DataGridTextColumn Header="StudentPhone" Binding="{Binding StudentPhone}"/> 
+                    <DataGridTextColumn Header="StudentEmail" Binding="{Binding StudentEmail}"/>
+                    <DataGridTextColumn Header="StudentLangExp" Binding="{Binding StudentLangExp}"/>
+                    <DataGridTextColumn Header="StudentLangLvl" Binding="{Binding StudentLangLvl}"/> 
+                    
+                </DataGrid.Columns>
+            </DataGrid>
+            
+            <Button FontSize = "20" Background="DarkRed" HorizontalAlignment="Center" Margin="10" Click="Back">Назад</Button>
+            
+        </StackPanel>
+    </Grid>
+</Window>

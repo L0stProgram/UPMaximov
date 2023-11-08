@@ -1,0 +1,34 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.SGroups.SGroupsWindow"
+        Background="Gray"
+        Title="SGroupsWindow">
+    <Grid>
+        <StackPanel>
+            <DataGrid Background="DarkRed" Name="SGroupsDataGrid" x:CompileBindings="False" Height="300">
+                <DataGrid.Columns>
+                    
+                    <DataGridTextColumn Header="GroupID" Binding="{Binding GroupID}"/>
+                    <DataGridTextColumn Header="GroupName" Binding="{Binding GroupName}"/>
+                    <DataGridTextColumn Header="GroupTeacher" Binding="{Binding GroupTeacher}"/> 
+                    <DataGridTextColumn Header="MaxStudents" Binding="{Binding MaxStudents}"/>
+                    <DataGridTextColumn Header="Course" Binding="{Binding Course}"/>
+                    
+                </DataGrid.Columns>
+            </DataGrid>
+            
+            <Button FontSize = "20" Background="DarkRed" HorizontalAlignment="Center" Margin="10" Click="Add">Добавить</Button>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <TextBlock FontSize = "20" Foreground="DarkRed" VerticalAlignment="Center" Margin="5">ID Студента:</TextBlock>
+                <TextBox Foreground="DarkRed" VerticalAlignment="Center" Margin="5" Name="IDTextBox"></TextBox>
+                <Button Background="DarkRed" VerticalAlignment="Center" Click="Button_OnClick_Delete" HorizontalAlignment="Center" Margin="5" >Delete</Button>
+            </StackPanel> 
+            
+            <Button FontSize = "20" Background="DarkRed" HorizontalAlignment="Center" Margin="10" Click="Back">Назад</Button>
+            
+        </StackPanel>
+    </Grid>
+</Window>

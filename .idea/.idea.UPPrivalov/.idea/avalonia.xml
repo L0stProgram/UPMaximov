@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="UPPrivalov/App.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Attendance/AttendanceAddWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Attendance/AttendanceWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Attendance/CourseAddWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/AttendanceWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Course.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/CourseWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Courses/CourseAddWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Courses/CourseWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/MainWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/MenuWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Payment/PaymentsWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Payments.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/PaymentsWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/ReceiptWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/RegisterWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Result1Win.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Result2Win.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/ResultsWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/SGroups/CourseAddWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/SGroups/SGroupAddWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/SGroups/SGroupsWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Students/CourseAddWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Students/StudentsWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/StudentsInGroups/StudentAddToGroupWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/StudentsInGroups/StudentsInGroupsWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Teachers/TeacherAddWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+        <entry key="UPPrivalov/Teachers/TeachersWindow.axaml" value="UPPrivalov/UPPrivalov.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

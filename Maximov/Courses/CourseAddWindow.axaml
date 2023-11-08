@@ -1,0 +1,25 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.Courses.CourseAddWindow"
+        Title="CourseAddWindow">
+    <StackPanel Orientation="Vertical" Width="750" Background="Gray">
+            
+        <TextBlock Foreground = "DarkRed" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize = "25" Margin="10">Введите название курса</TextBlock>
+        <TextBox Width = "200" HorizontalAlignment="Center" Name="CourceNameBox" Margin="10"></TextBox>
+            
+        <TextBlock Foreground = "DarkRed" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize = "25" Margin="10" >Введите описание курса</TextBlock>
+        <TextBox Width = "200" HorizontalAlignment="Center" Name="CourseDescriptionBox" Margin="10"></TextBox>
+            
+        <TextBlock Foreground = "DarkRed" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize = "25" Margin="10" >Выберите язык</TextBlock>
+        <ComboBox Width = "200" HorizontalAlignment="Center" Margin="10" Name="StudyLangComboBox"></ComboBox>
+            
+        <TextBlock Foreground = "DarkRed" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize = "25" Margin="10" >Введите стоимость курса</TextBlock>
+        <TextBox Width = "200" HorizontalAlignment="Center" Name="PriceBox" Margin="10"></TextBox>
+        
+        <Button Background="DarkRed" FontSize = "20" Margin="10" Click="AddButton" HorizontalAlignment="Center">Сохранить и добавить</Button>
+        <Button Background="DarkRed" FontSize = "20" Click="Cancel" HorizontalAlignment="Center">Отмена</Button>
+    </StackPanel>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.MenuWindow"
+        Background="Gray"
+        Title="MenuWindow">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center" FontSize="35" Margin="0 0 0 20">Изучение Языков</TextBlock>
+				<StackPanel Orientation="Horizontal">
+				<StackPanel Orientation="Vertical">
+                <Button FontSize = "15" Width = "180" Background="DarkRed" HorizontalAlignment="Center" Click="CoursesButton" Margin="10">Курсы</Button>
+                <Button FontSize = "15" Width = "180" Background="DarkRed" HorizontalAlignment="Center" Click="AttendancesButton" Margin="10">Посещаемость</Button>
+                <Button FontSize = "15" Width = "180" Background="DarkRed" HorizontalAlignment="Center" Click="PaymentsButton" Margin="10">Оплата</Button>
+                <Button FontSize = "15" Width = "180" Background="DarkRed" HorizontalAlignment="Center" Click="StudentsButton" Margin="10">Студенты</Button>
+                <Button FontSize = "15" Width = "180" Background="DarkRed" HorizontalAlignment="Center" Click="GroupsButton" Margin="10">Группы</Button>
+				</StackPanel>
+				<StackPanel Orientation="Vertical">
+                <Button FontSize = "15" Width = "180" Background="DarkRed" HorizontalAlignment="Center" Click="StudentsInGroupButton" Margin="10">Студенты В Группе</Button>
+                <Button FontSize = "15" Width = "180" Background="DarkRed" HorizontalAlignment="Center" Click="TeachersButton" Margin="10">Учителя</Button>
+                <Button FontSize = "15" Width = "180" Background="DarkRed" HorizontalAlignment="Center" Click="ResultsButton" Margin="10">Отчеты</Button>
+                <Button FontSize = "15" Width = "180" Background="DarkRed" HorizontalAlignment="Center" Click="ExitButton" Margin="10">Выйти</Button>
+				</StackPanel>
+				</StackPanel>
+            </StackPanel>
+            
+        </StackPanel>
+    </Grid>
+</Window>

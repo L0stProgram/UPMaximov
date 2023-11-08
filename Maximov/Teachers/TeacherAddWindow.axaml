@@ -1,0 +1,32 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.Teachers.TeacherAddWindow"
+		Background="Gray"
+        Title="TeacherAddWindow">
+    <StackPanel Orientation="Vertical" Background="Gray">
+            
+        <TextBlock VerticalAlignment="Center" Background="DarkRed" Margin="0 10 0 0">Введите имя</TextBlock>
+        <TextBox Name="TeacherNameTextBox" Background="IndianRed" Margin="0 0 0 10"></TextBox>
+            
+        <TextBlock VerticalAlignment="Center" Background="DarkRed">Введите фамилию</TextBlock>
+        <TextBox Name="TeacherSurnameTextBox" Background="IndianRed" Margin="0 0 0 10"></TextBox>
+            
+        <TextBlock VerticalAlignment="Center" Background="DarkRed">Введите отчество</TextBlock>
+        <TextBox Name="TeacherLastNameTextBox" Background="IndianRed" Margin="0 0 0 10"></TextBox>
+            
+        <TextBlock VerticalAlignment="Center" Background="DarkRed">Введите день рождения</TextBlock>
+        <DatePicker Name="TeacherBirthdayPicker"></DatePicker>
+        
+        <TextBlock VerticalAlignment="Center" Background="DarkRed">Введите телефон</TextBlock>
+        <TextBox Name="TeacherPhoneTextBox" Background="IndianRed" Margin="0 0 0 10"></TextBox>
+        
+        <TextBlock VerticalAlignment="Center" Background="DarkRed">Введите почту</TextBlock>
+        <TextBox Name="TeacherEmailTextBox" Background="IndianRed" Margin="0 0 0 10"></TextBox>
+        
+        <Button Background="DarkRed" FontSize = "20" Margin="10" Click="AddButton" HorizontalAlignment="Center">Сохранить и добавить</Button>
+        <Button Background="DarkRed" FontSize = "20" Click="Cancel" HorizontalAlignment="Center">Отмена</Button>
+    </StackPanel>
+</Window>

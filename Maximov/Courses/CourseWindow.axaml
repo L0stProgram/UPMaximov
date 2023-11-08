@@ -1,0 +1,31 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UPPrivalov.CourseWindow"
+        Background="Gray"
+        Title="CourseWindow">
+    <Grid>
+        <StackPanel>
+            <DataGrid Background="DarkRed" Name="CourseDataGrid" x:CompileBindings="False" Height="300">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding CourseID}"/>
+                    <DataGridTextColumn Header="Курс обучения" Binding="{Binding CourseName}"/>
+                    <DataGridTextColumn Header="Описание" Binding="{Binding CourseDesc}"/> 
+                    <DataGridTextColumn Header="Язык изучения" Binding="{Binding LanguageStudy}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            
+            <Button FontSize = "20" Background="DarkRed" HorizontalAlignment="Center" Margin="10" Click="Add">Добавить</Button>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <TextBlock FontSize = "20" Foreground="DarkRed" VerticalAlignment="Center" Margin="5">Учителя с ID:</TextBlock>
+                <TextBox Foreground="DarkRed" VerticalAlignment="Center" Margin="5" Name="IDTextBox"></TextBox>
+                <Button Background="DarkRed" VerticalAlignment="Center" Click="Button_OnClick_Delete" HorizontalAlignment="Center" Margin="5" >Delete</Button>
+            </StackPanel> 
+            
+            <Button FontSize = "20" Background="DarkRed" HorizontalAlignment="Center" Margin="10" Click="Back">Назад</Button>
+            
+        </StackPanel>
+    </Grid>
+</Window>
